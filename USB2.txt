@@ -1,0 +1,754 @@
+
+Creating Cluster instance
+
+Cluster 7FB7 sendo criado
+
+ACK CI ACCEPT received from A1AA
+
+JoinCluster - Entrei no cluster 1088 com 24000 rem
+
+ACK CI REFUSE received from 1088
+
+ACK CI ACCEPT received from 207E
+
+ACK CI ACCEPT received from A1AA
+
+ACK CI REFUSE received from 1088
+
+ACK CI REFUSE received from 207E
+
+ACK CI REFUSE received from A1AA
+
+ACK CI REFUSE received from 1088
+
+ACK CI REFUSE received from 207E
+
+ACK CI REFUSE received from 1088
+
+ACK CI REFUSE received from 207E
+
+ACK CI REFUSE received from A1AA
+
+ACK CI REFUSE received from 1088
+
+ACK CI REFUSE received from 207E
+
+ACK CI REFUSE received from A1AA
+
+ACK CI REFUSE received from 207E
+
+ACK CI REFUSE received from 1088
+
+ACK CI REFUSE received from 207E
+
+Hello confirma cluster
+
+new version table:1
+
+MeshMap - optimal erasing
+nodes
+Device(s) connected to this node: 3
+ 1 | 1088 | stability 255 | Cluster Role [A] | hops 1 | Next Hop 1088 | Route stability 255 | Top: S
+ 2 | A1AA | stability 90 | Cluster Role [M] | hops 1 | Next Hop A1AA | Route stability 90 | Top: S
+ 3 | 207E | stability 90 | Cluster Role [M] | hops 1 | Next Hop 207E | Route stability 79 | Top: S
+
+
+[RX - DATA] ID:1 | DEST:1088 | SRC:A1AA | TTL:30
+
+Data P: 1 - DEST: 1088 - SRC:A1AA - C0: 0 - TTL: 30
+
+[LOG - H]-[1]-[A1AA]-[0]
+
+[RX - DATA] ID:1 | DEST:7FB7 | SRC:1088 | TTL:30
+
+BL - Data Segment Received
+
+[LOG - R]-[1]-[7FB7]-[0]
+
+Mandando para aplicação - APP:0
+
+BL-SENT TO APP
+
+RelayDataPacket - TTL:30
+
+test msg to 1088 stored
+
+Data P: 1 - DEST: 1088 - SRC:7FB7 - C0: 0 - TTL: 30
+
+[LOG - H]-[1]-[7FB7]-[0]
+
+[RX - DATA] ID:2 | DEST:207E | SRC:A1AA | TTL:30
+
+Data P: 2 - DEST: 207E - SRC:A1AA - C0: 0 - TTL: 30
+
+[LOG - H]-[2]-[A1AA]-[0]
+
+RelayDataPacket - TTL:30
+
+test msg to A1AA stored
+
+Data P: 2 - DEST: A1AA - SRC:7FB7 - C0: 0 - TTL: 30
+
+[LOG - H]-[2]-[7FB7]-[0]
+
+[RX - DATA] ID:3 | DEST:7FB7 | SRC:A1AA | TTL:30
+
+BL - Data Segment Received
+
+[LOG - R]-[3]-[7FB7]-[0]
+
+Mandando para aplicação - APP:0
+
+BL-SENT TO APP
+
+[RX - DATA] ID:3 | DEST:207E | SRC:1088 | TTL:30
+
+Data P: 3 - DEST: 207E - SRC:1088 - C0: 0 - TTL: 30
+
+[LOG - H]-[3]-[1088]-[0]
+
+RelayDataPacket - TTL:30
+
+test msg to 207E stored
+
+Data P: 3 - DEST: 207E - SRC:7FB7 - C0: 0 - TTL: 30
+
+[LOG - H]-[3]-[7FB7]-[0]
+
+[RX - DATA] ID:4 | DEST:1088 | SRC:A1AA | TTL:30
+
+Data P: 4 - DEST: 1088 - SRC:A1AA - C0: 0 - TTL: 30
+
+[LOG - H]-[4]-[A1AA]-[0]
+
+[RX - DATA] ID:4 | DEST:7FB7 | SRC:1088 | TTL:30
+
+BL - Data Segment Received
+
+[LOG - R]-[4]-[7FB7]-[0]
+
+Mandando para aplicação - APP:0
+
+BL-SENT TO APP
+
+RelayDataPacket - TTL:30
+
+test msg to 1088 stored
+
+Data P: 4 - DEST: 1088 - SRC:7FB7 - C0: 0 - TTL: 30
+
+[LOG - H]-[4]-[7FB7]-[0]
+
+[RX - DATA] ID:5 | DEST:207E | SRC:A1AA | TTL:30
+
+Data P: 5 - DEST: 207E - SRC:A1AA - C0: 0 - TTL: 30
+
+[LOG - H]-[5]-[A1AA]-[0]
+
+RelayDataPacket - TTL:30
+
+test msg to A1AA stored
+
+Data P: 5 - DEST: A1AA - SRC:7FB7 - C0: 0 - TTL: 30
+
+[LOG - H]-[5]-[7FB7]-[0]
+
+[RX - DATA] ID:6 | DEST:7FB7 | SRC:A1AA | TTL:30
+
+BL - Data Segment Received
+
+[LOG - R]-[6]-[7FB7]-[0]
+
+Mandando para aplicação - APP:0
+
+BL-SENT TO APP
+
+[RX - DATA] ID:6 | DEST:207E | SRC:1088 | TTL:30
+
+Data P: 6 - DEST: 207E - SRC:1088 - C0: 0 - TTL: 30
+
+[LOG - H]-[6]-[1088]-[0]
+
+RelayDataPacket - TTL:30
+
+test msg to 207E stored
+
+Data P: 6 - DEST: 207E - SRC:7FB7 - C0: 0 - TTL: 30
+
+[LOG - H]-[6]-[7FB7]-[0]
+
+[RX - DATA] ID:1 | DEST:1088 | SRC:207E | TTL:30
+
+Data P: 1 - DEST: 1088 - SRC:207E - C0: 0 - TTL: 30
+
+[LOG - H]-[1]-[207E]-[0]
+
+[RX - DATA] ID:7 | DEST:1088 | SRC:A1AA | TTL:30
+
+Data P: 7 - DEST: 1088 - SRC:A1AA - C0: 0 - TTL: 30
+
+[LOG - H]-[7]-[A1AA]-[0]
+
+[RX - DATA] ID:7 | DEST:7FB7 | SRC:1088 | TTL:30
+
+BL - Data Segment Received
+
+[LOG - R]-[7]-[7FB7]-[0]
+
+Mandando para aplicação - APP:0
+
+BL-SENT TO APP
+
+RelayDataPacket - TTL:30
+
+test msg to 1088 stored
+
+Data P: 7 - DEST: 1088 - SRC:7FB7 - C0: 0 - TTL: 30
+
+[LOG - H]-[7]-[7FB7]-[0]
+
+[RX - DATA] ID:8 | DEST:207E | SRC:A1AA | TTL:30
+
+Data P: 8 - DEST: 207E - SRC:A1AA - C0: 0 - TTL: 30
+
+[LOG - H]-[8]-[A1AA]-[0]
+
+RelayDataPacket - TTL:30
+
+test msg to A1AA stored
+
+Data P: 8 - DEST: A1AA - SRC:7FB7 - C0: 0 - TTL: 30
+
+[LOG - H]-[8]-[7FB7]-[0]
+
+[RX - DATA] ID:3 | DEST:7FB7 | SRC:207E | TTL:30
+
+BL - Data Segment Received
+
+[LOG - R]-[3]-[7FB7]-[0]
+
+Mandando para aplicação - APP:0
+
+BL-SENT TO APP
+
+[RX - DATA] ID:9 | DEST:7FB7 | SRC:A1AA | TTL:30
+
+BL - Data Segment Received
+
+[LOG - R]-[9]-[7FB7]-[0]
+
+Mandando para aplicação - APP:0
+
+BL-SENT TO APP
+
+[RX - DATA] ID:9 | DEST:207E | SRC:1088 | TTL:30
+
+Data P: 9 - DEST: 207E - SRC:1088 - C0: 0 - TTL: 30
+
+[LOG - H]-[9]-[1088]-[0]
+
+RelayDataPacket - TTL:30
+
+test msg to 207E stored
+
+Data P: 9 - DEST: 207E - SRC:7FB7 - C0: 0 - TTL: 30
+
+[LOG - H]-[9]-[7FB7]-[0]
+
+[RX - DATA] ID:4 | DEST:1088 | SRC:207E | TTL:30
+
+Data P: 4 - DEST: 1088 - SRC:207E - C0: 0 - TTL: 30
+
+[LOG - H]-[4]-[207E]-[0]
+
+[RX - DATA] ID:10 | DEST:1088 | SRC:A1AA | TTL:30
+
+Data P: 10 - DEST: 1088 - SRC:A1AA - C0: 0 - TTL: 30
+
+[LOG - H]-[10]-[A1AA]-[0]
+
+[RX - DATA] ID:10 | DEST:7FB7 | SRC:1088 | TTL:30
+
+BL - Data Segment Received
+
+[LOG - R]-[10]-[7FB7]-[0]
+
+Mandando para aplicação - APP:0
+
+BL-SENT TO APP
+
+RelayDataPacket - TTL:30
+
+test msg to 1088 stored
+
+Data P: 10 - DEST: 1088 - SRC:7FB7 - C0: 0 - TTL: 30
+
+[LOG - H]-[10]-[7FB7]-[0]
+
+[RX - DATA] ID:11 | DEST:207E | SRC:A1AA | TTL:30
+
+Data P: 11 - DEST: 207E - SRC:A1AA - C0: 0 - TTL: 30
+
+[LOG - H]-[11]-[A1AA]-[0]
+
+RelayDataPacket - TTL:30
+
+test msg to A1AA stored
+
+Data P: 11 - DEST: A1AA - SRC:7FB7 - C0: 0 - TTL: 30
+
+[LOG - H]-[11]-[7FB7]-[0]
+
+[RX - DATA] ID:6 | DEST:7FB7 | SRC:207E | TTL:30
+
+BL - Data Segment Received
+
+[LOG - R]-[6]-[7FB7]-[0]
+
+Mandando para aplicação - APP:0
+
+BL-SENT TO APP
+
+[RX - DATA] ID:12 | DEST:7FB7 | SRC:A1AA | TTL:30
+
+BL - Data Segment Received
+
+[LOG - R]-[12]-[7FB7]-[0]
+
+Mandando para aplicação - APP:0
+
+BL-SENT TO APP
+
+[RX - DATA] ID:12 | DEST:207E | SRC:1088 | TTL:30
+
+Data P: 12 - DEST: 207E - SRC:1088 - C0: 0 - TTL: 30
+
+[LOG - H]-[12]-[1088]-[0]
+
+RelayDataPacket - TTL:30
+
+test msg to 207E stored
+
+Data P: 12 - DEST: 207E - SRC:7FB7 - C0: 0 - TTL: 30
+
+[LOG - H]-[12]-[7FB7]-[0]
+
+[RX - DATA] ID:7 | DEST:1088 | SRC:207E | TTL:30
+
+Data P: 7 - DEST: 1088 - SRC:207E - C0: 0 - TTL: 30
+
+[LOG - H]-[7]-[207E]-[0]
+
+[RX - DATA] ID:13 | DEST:1088 | SRC:A1AA | TTL:30
+
+Data P: 13 - DEST: 1088 - SRC:A1AA - C0: 0 - TTL: 30
+
+[LOG - H]-[13]-[A1AA]-[0]
+
+[RX - DATA] ID:13 | DEST:7FB7 | SRC:1088 | TTL:30
+
+BL - Data Segment Received
+
+[LOG - R]-[13]-[7FB7]-[0]
+
+Mandando para aplicação - APP:0
+
+BL-SENT TO APP
+
+RelayDataPacket - TTL:30
+
+test msg to 1088 stored
+
+Data P: 13 - DEST: 1088 - SRC:7FB7 - C0: 0 - TTL: 30
+
+[LOG - H]-[13]-[7FB7]-[0]
+
+[RX - DATA] ID:14 | DEST:207E | SRC:A1AA | TTL:30
+
+Data P: 14 - DEST: 207E - SRC:A1AA - C0: 0 - TTL: 30
+
+[LOG - H]-[14]-[A1AA]-[0]
+
+RelayDataPacket - TTL:30
+
+test msg to A1AA stored
+
+Data P: 14 - DEST: A1AA - SRC:7FB7 - C0: 0 - TTL: 30
+
+[LOG - H]-[14]-[7FB7]-[0]
+
+[RX - DATA] ID:9 | DEST:7FB7 | SRC:207E | TTL:30
+
+BL - Data Segment Received
+
+[LOG - R]-[9]-[7FB7]-[0]
+
+Mandando para aplicação - APP:0
+
+BL-SENT TO APP
+
+[RX - DATA] ID:15 | DEST:7FB7 | SRC:A1AA | TTL:30
+
+BL - Data Segment Received
+
+[LOG - R]-[15]-[7FB7]-[0]
+
+Mandando para aplicação - APP:0
+
+BL-SENT TO APP
+
+[RX - DATA] ID:15 | DEST:207E | SRC:1088 | TTL:30
+
+Data P: 15 - DEST: 207E - SRC:1088 - C0: 0 - TTL: 30
+
+[LOG - H]-[15]-[1088]-[0]
+
+RelayDataPacket - TTL:30
+
+test msg to 207E stored
+
+Data P: 15 - DEST: 207E - SRC:7FB7 - C0: 0 - TTL: 30
+
+[LOG - H]-[15]-[7FB7]-[0]
+
+[RX - DATA] ID:10 | DEST:1088 | SRC:207E | TTL:30
+
+Data P: 10 - DEST: 1088 - SRC:207E - C0: 0 - TTL: 30
+
+[LOG - H]-[10]-[207E]-[0]
+
+[RX - DATA] ID:16 | DEST:1088 | SRC:A1AA | TTL:30
+
+Data P: 16 - DEST: 1088 - SRC:A1AA - C0: 0 - TTL: 30
+
+[LOG - H]-[16]-[A1AA]-[0]
+
+[RX - DATA] ID:16 | DEST:7FB7 | SRC:1088 | TTL:30
+
+BL - Data Segment Received
+
+[LOG - R]-[16]-[7FB7]-[0]
+
+Mandando para aplicação - APP:0
+
+BL-SENT TO APP
+
+RelayDataPacket - TTL:30
+
+test msg to 1088 stored
+
+Data P: 16 - DEST: 1088 - SRC:7FB7 - C0: 0 - TTL: 30
+
+[LOG - H]-[16]-[7FB7]-[0]
+
+[RX - DATA] ID:17 | DEST:207E | SRC:A1AA | TTL:30
+
+Data P: 17 - DEST: 207E - SRC:A1AA - C0: 0 - TTL: 30
+
+[LOG - H]-[17]-[A1AA]-[0]
+
+RelayDataPacket - TTL:30
+
+test msg to A1AA stored
+
+Data P: 17 - DEST: A1AA - SRC:7FB7 - C0: 0 - TTL: 30
+
+[LOG - H]-[17]-[7FB7]-[0]
+
+[RX - DATA] ID:12 | DEST:7FB7 | SRC:207E | TTL:30
+
+BL - Data Segment Received
+
+[LOG - R]-[12]-[7FB7]-[0]
+
+Mandando para aplicação - APP:0
+
+BL-SENT TO APP
+
+[RX - DATA] ID:18 | DEST:7FB7 | SRC:A1AA | TTL:30
+
+BL - Data Segment Received
+
+[LOG - R]-[18]-[7FB7]-[0]
+
+Mandando para aplicação - APP:0
+
+BL-SENT TO APP
+
+[RX - DATA] ID:18 | DEST:207E | SRC:1088 | TTL:30
+
+Data P: 18 - DEST: 207E - SRC:1088 - C0: 0 - TTL: 30
+
+[LOG - H]-[18]-[1088]-[0]
+
+RelayDataPacket - TTL:30
+
+test msg to 207E stored
+
+Data P: 18 - DEST: 207E - SRC:7FB7 - C0: 0 - TTL: 30
+
+[LOG - H]-[18]-[7FB7]-[0]
+
+[RX - DATA] ID:13 | DEST:1088 | SRC:207E | TTL:30
+
+Data P: 13 - DEST: 1088 - SRC:207E - C0: 0 - TTL: 30
+
+[LOG - H]-[13]-[207E]-[0]
+
+[RX - DATA] ID:19 | DEST:1088 | SRC:A1AA | TTL:30
+
+Data P: 19 - DEST: 1088 - SRC:A1AA - C0: 0 - TTL: 30
+
+[LOG - H]-[19]-[A1AA]-[0]
+
+[RX - DATA] ID:19 | DEST:7FB7 | SRC:1088 | TTL:30
+
+BL - Data Segment Received
+
+[LOG - R]-[19]-[7FB7]-[0]
+
+Mandando para aplicação - APP:0
+
+BL-SENT TO APP
+
+RelayDataPacket - TTL:30
+
+test msg to 1088 stored
+
+Data P: 19 - DEST: 1088 - SRC:7FB7 - C0: 0 - TTL: 30
+
+[LOG - H]-[19]-[7FB7]-[0]
+
+[RX - DATA] ID:20 | DEST:207E | SRC:A1AA | TTL:30
+
+Data P: 20 - DEST: 207E - SRC:A1AA - C0: 0 - TTL: 30
+
+[LOG - H]-[20]-[A1AA]-[0]
+
+RelayDataPacket - TTL:30
+
+test msg to A1AA stored
+
+Data P: 20 - DEST: A1AA - SRC:7FB7 - C0: 0 - TTL: 30
+
+[LOG - H]-[20]-[7FB7]-[0]
+
+[RX - DATA] ID:15 | DEST:7FB7 | SRC:207E | TTL:30
+
+BL - Data Segment Received
+
+[LOG - R]-[15]-[7FB7]-[0]
+
+Mandando para aplicação - APP:0
+
+BL-SENT TO APP
+
+[RX - DATA] ID:21 | DEST:7FB7 | SRC:A1AA | TTL:30
+
+BL - Data Segment Received
+
+[LOG - R]-[21]-[7FB7]-[0]
+
+Mandando para aplicação - APP:0
+
+BL-SENT TO APP
+
+[RX - DATA] ID:21 | DEST:207E | SRC:1088 | TTL:30
+
+Data P: 21 - DEST: 207E - SRC:1088 - C0: 0 - TTL: 30
+
+[LOG - H]-[21]-[1088]-[0]
+
+RelayDataPacket - TTL:30
+
+test msg to 207E stored
+
+Data P: 21 - DEST: 207E - SRC:7FB7 - C0: 0 - TTL: 30
+
+[LOG - H]-[21]-[7FB7]-[0]
+
+[RX - DATA] ID:16 | DEST:1088 | SRC:207E | TTL:30
+
+Data P: 16 - DEST: 1088 - SRC:207E - C0: 0 - TTL: 30
+
+[LOG - H]-[16]-[207E]-[0]
+
+[RX - DATA] ID:22 | DEST:1088 | SRC:A1AA | TTL:30
+
+Data P: 22 - DEST: 1088 - SRC:A1AA - C0: 0 - TTL: 30
+
+[LOG - H]-[22]-[A1AA]-[0]
+
+[RX - DATA] ID:22 | DEST:7FB7 | SRC:1088 | TTL:30
+
+BL - Data Segment Received
+
+[LOG - R]-[22]-[7FB7]-[0]
+
+Mandando para aplicação - APP:0
+
+BL-SENT TO APP
+
+RelayDataPacket - TTL:30
+
+test msg to 1088 stored
+
+Data P: 22 - DEST: 1088 - SRC:7FB7 - C0: 0 - TTL: 30
+
+[LOG - H]-[22]-[7FB7]-[0]
+
+[RX - DATA] ID:23 | DEST:207E | SRC:A1AA | TTL:30
+
+Data P: 23 - DEST: 207E - SRC:A1AA - C0: 0 - TTL: 30
+
+[LOG - H]-[23]-[A1AA]-[0]
+
+RelayDataPacket - TTL:30
+
+test msg to A1AA stored
+
+Data P: 23 - DEST: A1AA - SRC:7FB7 - C0: 0 - TTL: 30
+
+[LOG - H]-[23]-[7FB7]-[0]
+
+[RX - DATA] ID:18 | DEST:7FB7 | SRC:207E | TTL:30
+
+BL - Data Segment Received
+
+[LOG - R]-[18]-[7FB7]-[0]
+
+Mandando para aplicação - APP:0
+
+BL-SENT TO APP
+
+[RX - DATA] ID:24 | DEST:7FB7 | SRC:A1AA | TTL:30
+
+BL - Data Segment Received
+
+[LOG - R]-[24]-[7FB7]-[0]
+
+Mandando para aplicação - APP:0
+
+BL-SENT TO APP
+
+[RX - DATA] ID:24 | DEST:207E | SRC:1088 | TTL:30
+
+Data P: 24 - DEST: 207E - SRC:1088 - C0: 0 - TTL: 30
+
+[LOG - H]-[24]-[1088]-[0]
+
+RelayDataPacket - TTL:30
+
+test msg to 207E stored
+
+Data P: 24 - DEST: 207E - SRC:7FB7 - C0: 0 - TTL: 30
+
+[LOG - H]-[24]-[7FB7]-[0]
+
+[RX - DATA] ID:19 | DEST:1088 | SRC:207E | TTL:30
+
+Data P: 19 - DEST: 1088 - SRC:207E - C0: 0 - TTL: 30
+
+[LOG - H]-[19]-[207E]-[0]
+
+[RX - DATA] ID:25 | DEST:1088 | SRC:A1AA | TTL:30
+
+Data P: 25 - DEST: 1088 - SRC:A1AA - C0: 0 - TTL: 30
+
+[LOG - H]-[25]-[A1AA]-[0]
+
+[RX - DATA] ID:25 | DEST:7FB7 | SRC:1088 | TTL:30
+
+BL - Data Segment Received
+
+[LOG - R]-[25]-[7FB7]-[0]
+
+Mandando para aplicação - APP:0
+
+BL-SENT TO APP
+
+RelayDataPacket - TTL:30
+
+test msg to 1088 stored
+
+Data P: 25 - DEST: 1088 - SRC:7FB7 - C0: 0 - TTL: 30
+
+[LOG - H]-[25]-[7FB7]-[0]
+
+RelayDataPacket - TTL:30
+
+test msg to A1AA stored
+
+Data P: 26 - DEST: A1AA - SRC:7FB7 - C0: 0 - TTL: 30
+
+[LOG - H]-[26]-[7FB7]-[0]
+
+[RX - DATA] ID:21 | DEST:7FB7 | SRC:207E | TTL:30
+
+BL - Data Segment Received
+
+[LOG - R]-[21]-[7FB7]-[0]
+
+Mandando para aplicação - APP:0
+
+BL-SENT TO APP
+
+[RX - DATA] ID:27 | DEST:7FB7 | SRC:A1AA | TTL:30
+
+BL - Data Segment Received
+
+[LOG - R]-[27]-[7FB7]-[0]
+
+Mandando para aplicação - APP:0
+
+BL-SENT TO APP
+
+[RX - DATA] ID:27 | DEST:207E | SRC:1088 | TTL:30
+
+Data P: 27 - DEST: 207E - SRC:1088 - C0: 0 - TTL: 30
+
+[LOG - H]-[27]-[1088]-[0]
+
+RelayDataPacket - TTL:30
+
+test msg to 207E stored
+
+Data P: 27 - DEST: 207E - SRC:7FB7 - C0: 0 - TTL: 30
+
+[LOG - H]-[27]-[7FB7]-[0]
+
+[RX - DATA] ID:22 | DEST:1088 | SRC:207E | TTL:30
+
+Data P: 22 - DEST: 1088 - SRC:207E - C0: 0 - TTL: 30
+
+[LOG - H]-[22]-[207E]-[0]
+
+[RX - DATA] ID:28 | DEST:1088 | SRC:A1AA | TTL:30
+
+Data P: 28 - DEST: 1088 - SRC:A1AA - C0: 0 - TTL: 30
+
+[LOG - H]-[28]-[A1AA]-[0]
+
+[RX - DATA] ID:28 | DEST:7FB7 | SRC:1088 | TTL:30
+
+BL - Data Segment Received
+
+[LOG - R]-[28]-[7FB7]-[0]
+
+Mandando para aplicação - APP:0
+
+BL-SENT TO APP
+
+RelayDataPacket - TTL:30
+
+test msg to 1088 stored
+
+Data P: 28 - DEST: 1088 - SRC:7FB7 - C0: 0 - TTL: 30
+
+[LOG - H]-[28]-[7FB7]-[0]
+
+[RX - DATA] ID:29 | DEST:207E | SRC:A1AA | TTL:30
+
+Data P: 29 - DEST: 207E - SRC:A1AA - C0: 0 - TTL: 30
+
+[LOG - H]-[29]-[A1AA]-[0]
