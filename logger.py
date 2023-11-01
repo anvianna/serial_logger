@@ -29,19 +29,19 @@ def init_picocom(serial_port):
     poller = select.poll()
     poller.register(pico_process.stdout, select.POLLIN)
     while not end_thread:
-        if(poller.poll(10) and pico_process.poll() == None):
+        if(pico_process.poll() == None):
             reply = pico_process.stdout.readline()
             if(len(reply) > 2):
                 sys.stdout.write("\r\nReply:"+reply.rstrip()+"\r\n")
                 file_out.write("\"" + datetime.datetime.now().strftime("%d/%m/%Y %H-%M-%S")+"\":"+reply.rstrip()+"\r\n")
         ###### nao funciona ############
-        if(time.perf_counter() - tic > 5):
-            tic = time.perf_counter()
-            if(pico_process.poll() == None):
-                str = "nodes"+"\r\n"
-                print(str)
-                pico_process.stdin.write(str)
-                pico_process.stdin.flush()
+        #if(time.perf_counter() - tic > 5):
+        #    tic = time.perf_counter()
+            #if(pico_process.poll() == None):
+            #    str = "nodes"+"\r\n"
+            #    print(str)
+            #    pico_process.stdin.write(str)
+            #    pico_process.stdin.flush()
         ###################
         time.sleep(0.01)
         #if(math.floor(time.time())%30 == 0):
