@@ -63,13 +63,14 @@ int main(int argc, char* argv[]) {
     //std::regex dataRegex("\\Data P: (\\d+) - DEST: (\\w+) - SRC:(\\w+) - C0: (\\d+) - TTL: (\\d+)");
     //std::regex logRegex("\\[LOG - ([A-Z])\\]-\\ID[(\\d+)\\]-\\DEST[(\\w+)\\]-\\SRC[(\\d+)]-\\HOP[(\\+d)\\]");
     std::regex logRegex("\\[LOG - ([A-Z])\\]-ID\\[(\\d+)\\]-DEST\\[(\\w+)\\]-SRC\\[(\\w+)\\]-HOP\\[(\\d+)\\]");
-
+    std::regex Data("\\Data:(A-Z)\\|(\\d+)");
+    std::regex FakeSwitch("\\FakeApp: Switch from (\\w+) to (\\w+)");
     Message AUX;
     uint16_t received_msg = 0;
     uint16_t sent_msg = 0;
     uint16_t expired_msg = 0;
 
-    while (std::getline(inputFile, line)) {
+    while (std::getline(TxLog, line)) {
         std::smatch match;
         size_t pos;
         pos = line.find(':');
