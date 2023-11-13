@@ -33,7 +33,7 @@ def init_picocom(serial_port):
             reply = pico_process.stdout.readline()
             if(len(reply) > 2):
                 sys.stdout.write("\r\nReply:"+reply.rstrip()+"\r\n")
-                file_out.write("\"" + datetime.datetime.now().strftime("%d/%m/%Y %H-%M-%S")+"\":"+reply.rstrip()+"\r\n")
+                file_out.write("\"" + datetime.datetime.now().strftime("%d/%m/%Y %H-%M-%S-%f")+"\":"+reply.rstrip()+"\r\n")
         ###### nao funciona ############
         #if(time.perf_counter() - tic > 5):
         #    tic = time.perf_counter()
